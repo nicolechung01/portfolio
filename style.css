@@ -1,0 +1,89 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    background-image: url('texture.png'), radial-gradient(circle at 95% 50%,#ebc6e4, #f5ebfe,#fefbf3,#fefbf3,#fefbf3, #fefbf3);
+    background-size:cover;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.page_center {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 85%;
+}
+.header {
+    text-align: left;
+    margin-left: 60px;
+    color: #242152;
+}
+
+.header h1 {
+    font-family: 'Grandiflora One', cursive;
+    font-weight: 400;
+    margin:0;
+    font-size: 128px;
+}
+
+.header h2 {
+    font-family: 'Pavanam', sans-serif;
+    font-weight: 400;
+    margin-top: 5px;
+    font-size: 28px;
+}
+
+.menu {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 60px;
+    align-items: flex-end;
+}
+.menu a {
+    text-decoration: none;
+}
+.menu_button .line {
+    margin-left: 20px;
+    right: 10px;
+    transform: translateY(-50%);
+    width: 30px; 
+    height: 1.3px; 
+    background-color: #242152;
+    transition: width 0.4s ease;
+}
+.menu_button:hover .line {
+    width: 60px;
+}
+.menu_button {
+    display: flex;
+    align-items: center;
+    color: #242152;
+    margin-bottom: 10px;
+    font-family: 'Pavanam', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    border: none;
+    background-color: transparent;
+    text-decoration: none;
+    position: relative;
+}
+
+.socials_bar {
+    padding: 10px;
+    margin-left: 60px;
+    height: 10%;
+}
+.socials_bar a {
+    margin-right: 25px;
+    text-decoration: none;
+}
