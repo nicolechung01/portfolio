@@ -12,15 +12,11 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 .main_container {
-height: 85%;
+    height: 85%;
 }
-.page_center h1 {
-    font-family: 'Grandiflora One', cursive;
-    font-weight: 400;
-    margin:0;
-    font-size: 80px;
-}
+
 .menu {
     margin-right: 60px;
     margin-top: 20px;
@@ -42,23 +38,114 @@ height: 85%;
     border-bottom: 1.3px solid transparent;
     transition: border-bottom;
 }
+
 .contact_button {
-    color: #706e94;
-    font-family: 'Pavanam', sans-serif;
-    font-weight: 400;
-    font-size: 22px;
-    background-color: transparent;
-    text-decoration: none;
-    margin-left: 20px;
-    border: none;
-    border-bottom: 1.3px solid transparent;
-    transition: border-bottom;
-    }
+color: #706e94;
+font-family: 'Pavanam', sans-serif;
+font-weight: 400;
+font-size: 22px;
+background-color: transparent;
+text-decoration: none;
+margin-left: 20px;
+border: none;
+border-bottom: 1.3px solid transparent;
+transition: border-bottom;
+}
+
 .menu_button:hover {
     border-bottom: 1.3px solid #242152
 }
+
 .page_center {
-    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 80%;
+}
+.text_box {
+    width: 40%;
+    margin-left: 60px;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.text_box h1 {
+    margin: 0;
+    font-family: 'Grandiflora One', cursive;
+    font-size: 50px;
+    font-weight: 800;
+    color:#242152
+}
+.text_box h2 {
+    margin: 0;
+    margin-bottom: 50px;
+    font-family: 'Pavanam', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color:#242152
+}
+.contact_info {
+    display: flex;
+}
+.contact_info h3 {
+    margin: 0;
+    margin-bottom: 10px;
+    font-family: 'Pavanam', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #242152;
+}
+.fa-solid{
+    margin: 0;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.form_box {
+    width: 40%;
+    margin-right: 60px;
+    margin-top: 150px;
+}
+.element_box {
+    display: flex;
+    flex-direction: column;
+}
+.form_subheader {
+    font-family: 'Pavanam', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #706e94;
+    margin-bottom: 10px;
+}
+.input {
+    color:#242152;
+    background-color: transparent;
+    border: none;
+    border-bottom: #242152 1.3px solid;
+    outline: none;
+    font-family: 'Pavanam', sans-serif;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+#message {
+    color: #242152;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-family: 'Pavanam', sans-serif;
+    font-size: 22px;
+    margin-bottom: 20px;
+    border-bottom: #242152 1.3px solid;
+    height: 60px;
+}
+.send {
+    margin-top: 10px;
+    background-color:rgba(184, 181, 234, 0.3);
+    border: none;
+    border-radius: 12px;
+    color: #242152;
+    outline: none;
+    font-family: 'Pavanam', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
 }
 .socials_bar {
     padding: 10px;
