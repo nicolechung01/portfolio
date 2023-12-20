@@ -111,6 +111,8 @@ body {
     top: 375px;
     left: 60px;
     rotate: -25deg;
+    animation: rotate 3s infinite; /* 2s duration, infinite loop */
+
 }
 #spring {
     position:absolute;
@@ -118,4 +120,24 @@ body {
     top: 275px;
     right: 370px;
     rotate: -20deg;
+    animation: rotate 3s infinite; /* 2s duration, infinite loop */
 }
+
+@keyframes rotate {
+    0%,100% {
+      transform: rotate(0deg);
+    }
+    5% {
+        transform: rotate(-20deg);
+    }
+    10% {
+        transform: rotate(0deg);
+    }
+    15% {
+        transform: rotate(-20deg);
+    }
+    20% {
+        transform: rotate(0deg);
+    }
+}
+

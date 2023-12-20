@@ -15,12 +15,7 @@ body {
 .main_container {
 height: 85%;
 }
-.page_center h1 {
-    font-family: 'Grandiflora One', cursive;
-    font-weight: 400;
-    margin:0;
-    font-size: 80px;
-}
+
 .menu {
     margin-right: 60px;
     margin-top: 20px;
@@ -59,6 +54,70 @@ height: 85%;
 }
 .page_center {
     align-items: center;
+    margin-top: 15px;
+    margin-left: 60px;
+    height: 85%;
+    overflow: scroll;
+}
+.page_center h1 {
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+    margin:0;
+    font-size: 50px;
+    color:#5434dd;
+    margin-bottom: 30px;
+}
+.project_box {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    margin-left: 25px;
+}
+.name_button {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 600;
+    color: #241e58;
+    font-size:25px;
+    margin: 0;
+    transition: border-bottom;
+    border-bottom: 2px solid transparent;
+    background-color: transparent;
+    border: none;
+}
+.text_container h3 {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    color: #241e58;
+    font-size: 20px;
+    margin: 0;
+}
+.name_container {
+    width: 1000px; 
+    height: 100%;
+    margin-right: 100px;
+
+}
+.text_container {
+    width: 1500px; 
+    height: 100%;
+    margin-right: 100px;
+
+}
+.project_img {
+    height: 140px;
+    width: 250px;
+    object-fit: cover;
+    object-position: center bottom;
+    vertical-align: top;
+    border-radius: 12px;
+    outline: solid 2px #241e58;
+    margin: 0;
+}
+.img_container {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .socials_bar {
     padding: 10px;
@@ -68,4 +127,10 @@ height: 85%;
 .socials_bar a {
     margin-right: 25px;
     text-decoration: none;
+}
+.project_link {
+    text-decoration: none;
+}
+.name_button:hover {
+    border-bottom: 2.5px solid #241e58
 }
