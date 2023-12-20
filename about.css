@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-image: url('texture.png'), radial-gradient(circle at 95% 50%,#ebc6e4, #f5ebfe,#fefbf3,#fefbf3,#fefbf3, #fefbf3);
+    background-color: #f4f4f4;
     background-size:cover;
     height: 100vh;
     overflow: hidden;
@@ -18,8 +18,8 @@ body {
     text-decoration: none;
 }
 .menu_button {
-    color: #242152;
-    font-family: 'Pavanam', sans-serif;
+    color: #241e58;
+    font-family: 'DM Sans', sans-serif;
     font-weight: 400;
     font-size: 22px;
     background-color: transparent;
@@ -30,19 +30,19 @@ body {
     transition: border-bottom;
 }
 .about_button {
-color: #706e94;
-font-family: 'Pavanam', sans-serif;
+color: #5434dd;
+font-family: 'DM Sans', sans-serif;
 font-weight: 400;
 font-size: 22px;
 background-color: transparent;
 text-decoration: none;
 margin-left: 20px;
 border: none;
-border-bottom: 1.3px solid transparent;
+border-bottom: 2px solid transparent;
 transition: border-bottom;
 }
 .menu_button:hover {
-    border-bottom: 1.3px solid #242152
+    border-bottom: 2px solid #241e58
 }
 
 .page_center {
@@ -56,17 +56,17 @@ transition: border-bottom;
 }
 .text_box h1 {
     margin-top: 50px;
-    font-family: 'Grandiflora One', cursive;
-    font-size: 45px;
+    font-family: 'Syne', sans-serif;
+    font-size: 50px;
     font-weight: 800;
-    color:#242152
+    color:#cfd81e
 
 }
 .text_box h2 {
-    font-family: 'Pavanam', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     font-weight: 400;
     font-size: 22px;
-    color:#242152
+    color:#241e58
 }
 .resume_button .line {
     margin-top: 2px;
@@ -74,21 +74,21 @@ transition: border-bottom;
     right: 10px;
     transform: translateY(-50%);
     width: 30px; 
-    height: 1px;
-    background-color: #242152;
+    height: 2px;
+    background-color: #241e58;
     transition: width 0.4s ease;
 }
 .resume_button:hover .line {
-    width: 60px;
+    width: 70px;
 }
 
 .resume_button {
     display: flex;
     align-items: center;
-    font-family: 'Grandiflora One', cursive;
+    font-family: 'Syne', sans-serif;
     font-weight: 600;
     font-size: 25px;
-    color: #242152;
+    color: #241e58;
     border: none;
     background-color: transparent;
     text-decoration: none;
@@ -104,28 +104,13 @@ transition: border-bottom;
 
 #me {
     position: absolute;
-    top: 150px;
-    right: 250px;
-    width: 313.8px;
-    height: 379.8px;
-    z-index: 1;
-}
-#sev {
-    position: absolute;
-    top: 350px;
-    right: 120px;
-    width: 209.2px;
-    height: 253.2px;
-    z-index: 2;
-    transform: rotate(15deg);
-}#aug {
-    position: absolute;
-    top: 375px;
-    right: 500px;
-    width: 209.2px;
-    height: 253.2px;
-    z-index: 3;
-    transform: rotate(-5deg);
+    top: 140px;
+    right: 150px;
+    height: 550px;
+    width: 500px;
+    object-fit: cover;
+    border-radius: 50%;
+    object-position: center top;
 }
 .container {
     margin: 0 auto;

@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-image: url('texture.png'), radial-gradient(circle at 95% 50%,#ebc6e4, #f5ebfe,#fefbf3,#fefbf3,#fefbf3, #fefbf3);
+    background-color: #f4f4f4;
     background-size:cover;
     height: 100vh;
     overflow: hidden;
@@ -27,33 +27,33 @@ body {
     text-decoration: none;
 }
 .menu_button {
-    color: #242152;
-    font-family: 'Pavanam', sans-serif;
+    color: #241e58;
+    font-family: 'DM Sans', sans-serif;
     font-weight: 400;
     font-size: 22px;
     background-color: transparent;
     text-decoration: none;
     margin-left: 20px;
     border: none;
-    border-bottom: 1.3px solid transparent;
+    border-bottom: 2px solid transparent;
     transition: border-bottom;
 }
 
 .contact_button {
-color: #706e94;
-font-family: 'Pavanam', sans-serif;
+color: #5434dd;
+font-family: 'DM Sans', sans-serif;
 font-weight: 400;
 font-size: 22px;
 background-color: transparent;
 text-decoration: none;
 margin-left: 20px;
 border: none;
-border-bottom: 1.3px solid transparent;
+border-bottom: 2px solid transparent;
 transition: border-bottom;
 }
 
 .menu_button:hover {
-    border-bottom: 1.3px solid #242152
+    border-bottom: 2px solid #241e58
 }
 
 .page_center {
@@ -70,18 +70,18 @@ transition: border-bottom;
 }
 .text_box h1 {
     margin: 0;
-    font-family: 'Grandiflora One', cursive;
+    font-family: 'Syne', sans-serif;
     font-size: 50px;
     font-weight: 800;
-    color:#242152
+    color:#cfd81e
 }
 .text_box h2 {
     margin: 0;
     margin-bottom: 50px;
-    font-family: 'Pavanam', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     font-size: 20px;
     font-weight: 400;
-    color:#242152
+    color:#241e58
 }
 .contact_info {
     display: flex;
@@ -89,10 +89,10 @@ transition: border-bottom;
 .contact_info h3 {
     margin: 0;
     margin-bottom: 10px;
-    font-family: 'Pavanam', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     font-size: 20px;
     font-weight: 400;
-    color: #242152;
+    color: #241e58;
 }
 .fa-solid{
     margin: 0;
@@ -109,43 +109,43 @@ transition: border-bottom;
     flex-direction: column;
 }
 .form_subheader {
-    font-family: 'Pavanam', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     font-weight: 400;
     font-size: 20px;
     color: #706e94;
     margin-bottom: 10px;
 }
 .input {
-    color:#242152;
+    color:#241e58;
     background-color: transparent;
     border: none;
-    border-bottom: #242152 1.3px solid;
+    border-bottom: #241e58 1.5px solid;
     outline: none;
-    font-family: 'Pavanam', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     font-size: 22px;
     margin-bottom: 20px;
 }
 #message {
-    color: #242152;
+    color: #241e58;
     background-color: transparent;
     border: none;
     outline: none;
-    font-family: 'Pavanam', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     font-size: 22px;
     margin-bottom: 20px;
-    border-bottom: #242152 1.3px solid;
+    border-bottom: #241e58 1.5px solid;
     height: 60px;
 }
 .send {
+    color: #e635e4;
+    background-color: #ecd7eb;
     margin-top: 10px;
-    background-color:rgba(184, 181, 234, 0.3);
-    border: none;
+    border: none;   
     border-radius: 12px;
-    color: #242152;
-    outline: none;
-    font-family: 'Pavanam', sans-serif;
-    font-size: 20px;
-    font-weight: 400;
+    padding: 5px;
+    font-family: 'Syne', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
 }
 .socials_bar {
     padding: 10px;

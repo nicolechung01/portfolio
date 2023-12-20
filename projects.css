@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-image: url('texture.png'), radial-gradient(circle at 95% 50%,#ebc6e4, #f5ebfe,#fefbf3,#fefbf3,#fefbf3, #fefbf3);
+    background-color: #f4f4f4;
     background-size:cover;
     height: 100vh;
     overflow: hidden;
@@ -31,31 +31,31 @@ height: 85%;
     text-decoration: none;
 }
 .menu_button {
-    color: #242152;
-    font-family: 'Pavanam', sans-serif;
+    color: #241e58;
+    font-family: 'DM Sans', sans-serif;
     font-weight: 400;
     font-size: 22px;
     background-color: transparent;
     text-decoration: none;
     margin-left: 20px;
     border: none;
-    border-bottom: 1.3px solid transparent;
+    border-bottom: 2px solid transparent;
     transition: border-bottom;
 }
 .projects_button {
-    color: #706e94;
-    font-family: 'Pavanam', sans-serif;
+    color: #5434dd;
+    font-family: 'DM Sans', sans-serif;
     font-weight: 400;
     font-size: 22px;
     background-color: transparent;
     text-decoration: none;
     margin-left: 20px;
     border: none;
-    border-bottom: 1.3px solid transparent;
+    border-bottom: 2px solid transparent;
     transition: border-bottom;
     }
 .menu_button:hover {
-    border-bottom: 1.3px solid #242152
+    border-bottom: 2px solid #241e58
 }
 .page_center {
     align-items: center;
