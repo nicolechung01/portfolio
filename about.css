@@ -5,8 +5,11 @@ body {
     height: 100vh;
     overflow: hidden;
 }
-.main_container {
-    height: 85%;
+.container {
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 .menu {
     margin-right: 60px;
@@ -47,13 +50,16 @@ transition: border-bottom;
 
 .page_center {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    height: 80%;
+    align-items: center;
 }
 .text_box {
     width: 40%;
     margin-left: 60px;
     margin-top: 30px;
+    margin-bottom: 30px;
+
 }
 .text_box h1 {
     margin-top: 50px;
@@ -114,18 +120,51 @@ transition: border-bottom;
     object-position: center top;
 }
 .container {
-    margin: 0 auto;
     padding: 20px;
     height: 100vh;
     display: flex;
     flex-direction: column;
 }
 .socials_bar {
-    padding: 10px;
     margin-left: 60px;
-    height: 10%;
+    margin-top: 80px;
 }
 .socials_bar a {
     margin-right: 25px;
     text-decoration: none;
+}
+@media screen and (max-width: 1024px) {
+    .container {
+        padding: 20px;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        overflow: scroll;
+    }
+    .page_center {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .text_box {
+        width: 80%;
+        margin-left: 0;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .pic_container {
+        margin: 0;
+        justify-content: center;
+        width: auto;
+    }
+    #me {
+        position:sticky;
+        height: 385px;
+        width: 350px;
+    }
+    .menu {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
 }
