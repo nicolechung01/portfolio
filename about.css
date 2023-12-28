@@ -182,4 +182,6 @@ transition: border-bottom;
     .about_button {
         margin-left: 0;
     }
+    .text_box h1 {
+        font-size: 45px;
 }
