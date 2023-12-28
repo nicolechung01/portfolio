@@ -100,6 +100,7 @@ transition: border-bottom;
     background-color: transparent;
     text-decoration: none;
     position: relative;
+    padding: 0px;
 }
 .text_box a {
     text-decoration: none;
@@ -141,7 +142,7 @@ transition: border-bottom;
         padding: 0px;
         height: 100vh;
         width: 100vw;
-        max-width: 100%
+        max-width: 100%;
         margin: 0 auto;
         display: flex;
         flex-direction: column;
@@ -177,11 +178,37 @@ transition: border-bottom;
     }
     .menu_button {
         margin-left: 0;
-        font-size: 20px;
+        font-size: 18px;
+        padding: 0px;
+    }
+    .menu_button:hover {
+        border-bottom: 1.5px solid #241e58
     }
     .about_button {
         margin-left: 0;
+        font-size: 18px;
     }
     .text_box h1 {
-        font-size: 45px;
+        font-size: 40px;
+        margin-top: 30px;
+    }
+    .text_box h2 {
+        font-size: 20px;
+    }
+    .resume_button {
+        font-size: 22px;
+    }
+    .socials_bar {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+        margin-bottom: 100px;
+    }
+    .socials_bar a {
+        margin: 0;
+        text-decoration: none;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
