@@ -23,6 +23,7 @@ body {
     height: 85%;
 }
 .header {
+    margin-top: 5px;
     text-align: left;
     margin-left: 60px;
     color: #5434dd;
@@ -170,6 +171,7 @@ body {
         margin: 0;
         display: flex;
         justify-content: center;
+        margin-bottom: 5px;
     }
     .socials_bar a {
         margin: 0;
