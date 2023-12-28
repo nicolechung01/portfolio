@@ -181,13 +181,14 @@ body {
         text-decoration: none;
         padding-left: 10px;
         padding-right: 10px;
+        padding: 10px;
     }
    .menu {
         width: 100%;
         justify-content: center;
         align-items: center;
         margin: 0;
-        padding-top: 30px;
+        padding: 10px;
     }
    .menu_button .line {
         display: none;
