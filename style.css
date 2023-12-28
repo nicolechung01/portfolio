@@ -95,12 +95,11 @@ body {
         height: 100vh;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
     }
     .page_center {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         margin: 0;
     }
@@ -111,9 +110,11 @@ body {
     }
     .header h1{
         font-size: 100px;
+        margin: 0;
     }
     .header h2{
         font-size: 22px;
+        margin: 0;
     }
     .socials_bar {
         margin: 0;
@@ -132,6 +133,7 @@ body {
         justify-content: center;
         align-items: center;
         margin: 0;
+        padding-top: 0px;
     }
    .menu_button .line {
         display: none;
