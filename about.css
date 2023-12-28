@@ -169,13 +169,15 @@ transition: border-bottom;
         width: 350px;
     }
     .menu {
+        width: auto;
         margin-top: 20px;
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
         margin-right: 0;
     }
     .menu_button {
         margin-left: 0;
+        font-size: 20px;
     }
     .about_button {
         margin-left: 0;
