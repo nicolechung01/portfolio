@@ -82,7 +82,6 @@ body {
 .socials_bar {
     padding: 10px;
     margin-left: 60px;
-    height: 10%;
 }
 .socials_bar a {
     margin-right: 25px;
@@ -148,6 +147,7 @@ body {
         height: 100vh;
         display: flex;
         flex-direction: column;
+        overflow: scroll;
     }
     .page_center {
         display: flex;
