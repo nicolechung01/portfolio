@@ -95,7 +95,7 @@ body {
         height: 100vh;
         display: flex;
         flex-direction: column;
-        overflow: scroll;
+        justify-content: space-between;
     }
     .page_center {
         display: flex;
