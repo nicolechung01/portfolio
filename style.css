@@ -108,12 +108,15 @@ body {
         text-align: center;
         margin: 0;
         color: #5434dd;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
     .header h1{
-        font-size: 100px;
+        font-size: 12vh;
     }
     .header h2{
-        font-size: 22px;
+        font-size: 4vh;
     }
     .socials_bar {
         margin: 0;
@@ -149,7 +152,7 @@ body {
         margin-bottom: 20px;
         font-family: 'DM Sans', sans-serif;
         font-weight: 400;
-        font-size: 25px;
+        font-size: 4vh;
         border: solid #242152 2px;
         border-radius: 25px;
         padding-bottom: 5px;
