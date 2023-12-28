@@ -116,7 +116,7 @@ body {
         font-size: 12vh;
     }
     .header h2{
-        font-size: 4vh;
+        font-size: 3vh;
     }
     .socials_bar {
         margin: 0;
@@ -152,7 +152,7 @@ body {
         margin-bottom: 20px;
         font-family: 'DM Sans', sans-serif;
         font-weight: 400;
-        font-size: 4vh;
+        font-size: 3vh;
         border: solid #242152 2px;
         border-radius: 25px;
         padding-bottom: 5px;
