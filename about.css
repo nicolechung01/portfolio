@@ -141,8 +141,6 @@ transition: border-bottom;
     .container {
         padding: 0px;
         height: 100vh;
-        width: 100vw;
-        max-width: 100%;
         margin: 0 auto;
         display: flex;
         flex-direction: column;
@@ -152,6 +150,7 @@ transition: border-bottom;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        height: fit-content;
     }
     .text_box {
         width: 80%;
@@ -171,7 +170,7 @@ transition: border-bottom;
     }
     .menu {
         width: auto;
-        margin-top: 20px;
+        margin-top: 35px;
         display: flex;
         justify-content: space-evenly;
         margin-right: 0;
@@ -199,11 +198,10 @@ transition: border-bottom;
         font-size: 22px;
     }
     .socials_bar {
-        margin: 0;
+        margin-left: 0;
         display: flex;
         justify-content: center;
         margin-top: 60px;
-        margin-bottom: 100px;
     }
     .socials_bar a {
         margin: 0;
