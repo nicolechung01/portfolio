@@ -111,7 +111,7 @@ body {
     object-position: center bottom;
     vertical-align: top;
     border-radius: 12px;
-    outline: solid 2px #241e58;
+    border: solid 2px #241e58;
     margin: 0;
 }
 .img_container {
@@ -133,4 +133,88 @@ body {
 }
 .name_button:hover {
     border-bottom: 2.5px solid #241e58
+}
+
+@media screen and (max-width: 1024px) {
+    body, html {
+        width: 100vw;
+    }
+    .container {
+        padding: 0;
+        margin: 0;
+        height: 100vh;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        overflow: scroll;
+    }
+    .menu {
+        width: auto;
+        margin-top: 35px;
+        display: flex;
+        justify-content: space-evenly;
+        margin-right: 0;
+    }
+    .menu_button {
+        margin-left: 0;
+        font-size: 18px;
+        padding: 0px;
+    }
+    .menu_button:hover {
+        border-bottom: 1.5px solid #241e58
+    }
+    .page_center {
+        margin: 0;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .header_box {
+        width: 85%;
+        align-items:center;
+        margin-top: 30px;
+    }
+    .content_box h1 {
+        margin-left: 40px;
+    }
+    .projects_button {
+        margin-left: 0;
+        font-size: 18px;
+    }
+    .project_container {
+        padding-left: 30px;
+        width: 100vw;
+    }
+    .project_box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;        
+        margin: 0;
+    }
+    .name_container {
+        width: 85%;
+        display: flex;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    .text_container {
+        width: 85%;
+        height: fit-content;
+        margin-bottom: 20px;
+        display: flex;
+        margin-right: 0;
+    }
+    .img_container {
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+        margin-bottom: 50px;
+    }
+    .project_img {
+        width: 85%; 
+        height: auto;
+    }
+
 }
