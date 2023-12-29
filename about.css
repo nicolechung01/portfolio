@@ -27,22 +27,24 @@ body {
     font-size: 22px;
     background-color: transparent;
     text-decoration: none;
-    margin-left: 20px;
+    margin-left: 40px;
     border: none;
     border-bottom: 1.3px solid transparent;
     transition: border-bottom;
+    padding: 0;
 }
 .about_button {
-color: #5434dd;
-font-family: 'DM Sans', sans-serif;
-font-weight: 400;
-font-size: 22px;
-background-color: transparent;
-text-decoration: none;
-margin-left: 20px;
-border: none;
-border-bottom: 2px solid transparent;
-transition: border-bottom;
+    color: #5434dd;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    background-color: transparent;
+    text-decoration: none;
+    margin-left: 40px;
+    border: none;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom;
+    padding: 0;
 }
 .menu_button:hover {
     border-bottom: 2px solid #241e58

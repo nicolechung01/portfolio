@@ -78,6 +78,7 @@ body {
     background-color: transparent;
     text-decoration: none;
     position: relative;
+    padding: 0px;
 }
 .socials_bar {
     margin-top: auto;

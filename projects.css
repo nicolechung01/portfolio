@@ -12,9 +12,6 @@ body {
     display: flex;
     flex-direction: column;
 }
-.main_container {
-height: 85%;
-}
 
 .menu {
     margin-right: 60px;
@@ -32,10 +29,11 @@ height: 85%;
     font-size: 22px;
     background-color: transparent;
     text-decoration: none;
-    margin-left: 20px;
+    margin-left: 40px;
     border: none;
     border-bottom: 2px solid transparent;
     transition: border-bottom;
+    padding: 0;
 }
 .projects_button {
     color: #5434dd;
@@ -44,20 +42,20 @@ height: 85%;
     font-size: 22px;
     background-color: transparent;
     text-decoration: none;
-    margin-left: 20px;
+    margin-left: 40px;
     border: none;
     border-bottom: 2px solid transparent;
     transition: border-bottom;
-    }
+    padding: 0;
+}
 .menu_button:hover {
     border-bottom: 2px solid #241e58
 }
 .page_center {
     align-items: center;
     margin-top: 15px;
+    margin-bottom: 15px;
     margin-left: 60px;
-    height: 85%;
-    overflow: scroll;
 }
 .page_center h1 {
     font-family: 'Syne', sans-serif;
@@ -65,20 +63,23 @@ height: 85%;
     margin:0;
     font-size: 50px;
     color:#5434dd;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+}
+.project_container {
+    overflow: scroll;
 }
 .project_box {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    margin-bottom: 30px;
-    margin-left: 25px;
+    margin-bottom: 25px;
+    margin-left: 40px;
 }
 .name_button {
     font-family: 'DM Sans', sans-serif;
     font-weight: 600;
     color: #241e58;
-    font-size:25px;
+    font-size: 22px;
     margin: 0;
     transition: border-bottom;
     border-bottom: 2px solid transparent;
@@ -89,24 +90,22 @@ height: 85%;
     font-family: 'DM Sans', sans-serif;
     font-weight: 400;
     color: #241e58;
-    font-size: 20px;
+    font-size: 18px;
     margin: 0;
 }
 .name_container {
-    width: 1000px; 
-    height: 100%;
+    width: 900px; 
     margin-right: 100px;
 
 }
 .text_container {
     width: 1500px; 
-    height: 100%;
-    margin-right: 100px;
-
+    height: 112px;
+    margin-right: 180px;
 }
 .project_img {
-    height: 140px;
-    width: 250px;
+    height: 112px;
+    width: 200px;
     object-fit: cover;
     object-position: center bottom;
     vertical-align: top;
