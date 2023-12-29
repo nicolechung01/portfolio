@@ -13,10 +13,6 @@ body {
     flex-direction: column;
 }
 
-.main_container {
-    height: 85%;
-}
-
 .menu {
     margin-right: 60px;
     margin-top: 20px;
@@ -148,9 +144,9 @@ transition: border-bottom;
     font-weight: 600;
 }
 .socials_bar {
-    padding: 10px;
+    margin-top: auto;
     margin-left: 60px;
-    height: 10%;
+    padding-bottom: 60px;
 }
 .socials_bar a {
     margin-right: 25px;

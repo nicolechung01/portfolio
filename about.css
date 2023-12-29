@@ -53,6 +53,7 @@ transition: border-bottom;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    height: 90vh;
 }
 .text_box {
     width: 40%;
@@ -122,13 +123,14 @@ transition: border-bottom;
 }
 .container {
     padding: 20px;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
 .socials_bar {
+    margin-top: auto;
     margin-left: 60px;
-    margin-top: 80px;
+    padding-bottom: 60px;
 }
 .socials_bar a {
     margin-right: 25px;
