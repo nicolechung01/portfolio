@@ -91,9 +91,6 @@ body {
 
 @media screen and (max-width: 1024px) {
     .container {
-        padding: 0px;
-        display: flex;
-        flex-direction: column;
         justify-content: space-evenly;
     }
     .page_center {
@@ -102,7 +99,6 @@ body {
         justify-content: space-between;
         padding: 30px;
         margin: 0;
-        height: 95vh;
     }
     .header {
         text-align: center;
@@ -116,14 +112,13 @@ body {
         font-size: 10vh;
     }
     .header h2{
-        font-size: 20px;
+        font-size: 25px;
         margin-bottom: 30px;
     }
     .socials_bar {
         margin: 0;
         display: flex;
         justify-content: center;
-        margin-bottom: 60px;
     }
     .socials_bar a {
         margin: 0;
@@ -165,6 +160,15 @@ body {
     .menu_button:hover {
         color: #e636e4;
         border: solid #e635e4 2px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .socials_bar {
+        margin-bottom: 50px;
+    }
+    .header h2{
+        font-size: 19px;
     }
 }
    
