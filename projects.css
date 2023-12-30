@@ -216,5 +216,17 @@ body {
         width: 85%; 
         height: auto;
     }
+    .socials_bar {
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+    }
+    .socials_bar a {
+        margin: 0;
+        text-decoration: none;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 
 }
