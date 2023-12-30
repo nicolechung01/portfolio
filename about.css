@@ -190,7 +190,6 @@ body {
         font-size: 18px;
     }
     .text_box h1 {
-        font-size: 40px;
         margin-top: 30px;
     }
     .text_box h2 {
@@ -210,5 +209,10 @@ body {
         text-decoration: none;
         padding-left: 10px;
         padding-right: 10px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .text_box h1 {
+        font-size: 40px;
     }
 }
