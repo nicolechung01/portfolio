@@ -154,3 +154,78 @@ body {
     margin-right: 25px;
     text-decoration: none;
 }
+@media screen and (max-width: 1024px) {
+
+    .socials_bar {
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+    }
+    .socials_bar a {
+        margin: 0;
+        text-decoration: none;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    body, html {
+        width: 100vw;
+    }
+    .container {
+        padding: 0;
+        margin: 0;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        overflow: scroll;
+    }
+    .menu {
+        width: auto;
+        margin-top: 35px;
+        display: flex;
+        justify-content: space-evenly;
+        margin-right: 0;
+    }
+    .menu_button {
+        margin-left: 0;
+        font-size: 18px;
+        padding: 0px;
+    }
+    .contact_button {
+        margin-left: 0;
+        font-size: 18px;
+    }
+    .page_center {
+        margin: 0;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+    .text_box {
+        width: 80%;
+        margin: 0;
+        align-items: center;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .text_box h2 {
+        margin-bottom: 40px;
+    }
+    .form_box {
+        width: 80%;
+        margin-top: 50px;
+        margin-right: 0;
+    }
+    .send_container {
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 768px) {
+    .text_box h1 {
+        font-size: 55px;
+    }
+}
+

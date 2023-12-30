@@ -160,9 +160,6 @@ body {
         font-size: 18px;
         padding: 0px;
     }
-    .menu_button:hover {
-        border-bottom: 1.5px solid #241e58
-    }
     .page_center {
         margin: 0;
         padding: 20px;
