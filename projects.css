@@ -65,8 +65,9 @@ body {
     color:#5434dd;
     margin-bottom: 20px;
 }
-.project_container {
+.projects_container {
     overflow: scroll;
+    height: 500px;
 }
 .project_box {
     display: flex;
