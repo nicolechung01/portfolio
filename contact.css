@@ -1,23 +1,20 @@
 body {
     margin: 0;
     background-color: #f4f4f4;
-    background-size:cover;
     height: 100vh;
-    overflow: hidden;
 }
 .container {
-    margin: 0 auto;
-    padding: 20px;
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
 }
-
 .menu {
-    margin-right: 60px;
-    margin-top: 20px;
+    flex: 0.5;
+    margin-right: 8%;
     display: flex;
     justify-content: right;
+    align-items: center;
+    padding: 0;
 }
 .menu a {
     text-decoration: none;
@@ -26,7 +23,7 @@ body {
     color: #241e58;
     font-family: 'DM Sans', sans-serif;
     font-weight: 400;
-    font-size: 22px;
+    font-size: 2.5vh;
     background-color: transparent;
     text-decoration: none;
     margin-left: 40px;
@@ -40,7 +37,7 @@ body {
     color: #5434dd;
     font-family: 'DM Sans', sans-serif;
     font-weight: 400;
-    font-size: 22px;
+    font-size: 2.5vh;
     background-color: transparent;
     text-decoration: none;
     margin-left: 40px;
@@ -55,21 +52,22 @@ body {
 }
 
 .page_center {
+    flex: 3;
     display: flex;
     justify-content: space-between;
     height: 80%;
 }
 .text_box {
-    width: 40%;
-    margin-left: 60px;
-    margin-top: 200px;
+    flex: 1;
+    margin-left: 8%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 .text_box h1 {
     margin: 0;
     font-family: 'Syne', sans-serif;
-    font-size: 50px;
+    font-size: 5vh;
     font-weight: 800;
     color:#cfd81e
 }
@@ -77,7 +75,7 @@ body {
     margin: 0;
     margin-bottom: 50px;
     font-family: 'DM Sans', sans-serif;
-    font-size: 20px;
+    font-size: 3vh;
     font-weight: 400;
     color:#241e58
 }
@@ -88,7 +86,7 @@ body {
     margin: 0;
     margin-bottom: 10px;
     font-family: 'DM Sans', sans-serif;
-    font-size: 20px;
+    font-size: 2.5vh;
     font-weight: 400;
     color: #241e58;
 }
@@ -98,9 +96,14 @@ body {
     margin-right: 10px;
 }
 .form_box {
-    width: 40%;
-    margin-right: 60px;
-    margin-top: 150px;
+    flex: 1;
+    margin-right: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#form {
+    width: 100%;
 }
 .element_box {
     display: flex;
@@ -109,7 +112,7 @@ body {
 .form_subheader {
     font-family: 'DM Sans', sans-serif;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 2.5vh;
     color: #706e94;
     margin-bottom: 10px;
 }
@@ -146,9 +149,12 @@ body {
     font-weight: 600;
 }
 .socials_bar {
-    margin-top: auto;
-    margin-left: 60px;
-    padding-bottom: 90px;
+    flex: 0.5;
+    margin-left: 8%;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin-bottom: 1%;
 }
 .socials_bar a {
     margin-right: 25px;

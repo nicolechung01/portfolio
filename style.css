@@ -1,31 +1,28 @@
-/* styles.css */
 
 body {
     margin: 0;
     background-color: #f4f4f4;
-    background-size:cover;
     height: 100vh;
-    overflow: hidden;
 }
-
 .container {
-    padding: 20px;
-    min-height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 .page_center {
+    flex: 3.5;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-top: 250px;
-    margin-bottom: 200px;
+    margin: 0;
+    padding: 0;
 }
 .header {
-    margin-top: 5px;
     text-align: left;
-    margin-left: 60px;
+    margin-left: 8%;
     color: #5434dd;
 }
 
@@ -33,22 +30,24 @@ body {
     font-family: 'Syne', sans-serif;
     font-weight: 700;
     margin:0;
-    font-size: 128px;
+    font-size: 12vh;
+    margin-top: 90px;
+
 }
 
 .header h2 {
     font-family: 'DM Sans', sans-serif;
     font-weight: 400;
     margin-top: 5px;
-    font-size: 28px;
+    font-size: 4vh;
     color: #241e58;
 }
 
 .menu {
-    padding-top: 30px;
+    padding-top: 80px;
     display: flex;
     flex-direction: column;
-    margin-right: 60px;
+    margin-right: 8%;
     align-items: flex-end;
 }
 .menu a {
@@ -73,7 +72,7 @@ body {
     margin-bottom: 10px;
     font-family: 'DM Sans', sans-serif;
     font-weight: 400;
-    font-size: 28px;
+    font-size: 4vh;
     border: none;
     background-color: transparent;
     text-decoration: none;
@@ -81,9 +80,12 @@ body {
     padding: 0px;
 }
 .socials_bar {
-    margin-top: auto;
-    margin-left: 60px;
-    padding-bottom: 90px;
+    flex: 0.5;
+    margin-left: 8%;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin-bottom: 1%;
 }
 .socials_bar a {
     margin-right: 25px;

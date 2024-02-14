@@ -1,21 +1,22 @@
 body {
     margin: 0;
     background-color: #f4f4f4;
-    background-size:cover;
     height: 100vh;
-    overflow: hidden;
 }
 .container {
-    padding: 20px;
-    height: 100vh;
+    padding: 0;
+    margin: 0;
+    height: 100%;
     display: flex;
     flex-direction: column;
 }
 .menu {
-    margin-right: 60px;
-    margin-top: 20px;
+    flex: 0.5;
+    margin-right: 8%;
     display: flex;
     justify-content: right;
+    align-items: center;
+    padding: 0;
 }
 .menu a {
     text-decoration: none;
@@ -24,7 +25,7 @@ body {
     color: #241e58;
     font-family: 'DM Sans', sans-serif;
     font-weight: 400;
-    font-size: 22px;
+    font-size: 2.5vh;
     background-color: transparent;
     text-decoration: none;
     margin-left: 40px;
@@ -37,7 +38,7 @@ body {
     color: #5434dd;
     font-family: 'DM Sans', sans-serif;
     font-weight: 400;
-    font-size: 22px;
+    font-size: 2.5vh;
     background-color: transparent;
     text-decoration: none;
     margin-left: 40px;
@@ -51,29 +52,32 @@ body {
 }
 
 .page_center {
+    flex: 3;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
-    height: 90vh;
+    padding: 0;
+    margin: 0;
 }
 .text_box {
-    width: 40%;
-    margin-left: 60px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-left: 8%;
+    padding-right: 8%;
 }
 .text_box h1 {
     margin: 0;
     font-family: 'Syne', sans-serif;
-    font-size: 50px;
+    font-size: 8vh;
     font-weight: 800;
-    color:#cfd81e
+    color:#cfd81e;
+    text-align: left;
 }
 .text_box h2 {
     font-family: 'DM Sans', sans-serif;
     font-weight: 400;
-    font-size: 22px;
+    font-size: 2.5vh;
     color:#241e58
 }
 .resume_button .line {
@@ -95,7 +99,7 @@ body {
     align-items: center;
     font-family: 'Syne', sans-serif;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 2.5vh;
     color: #241e58;
     border: none;
     background-color: transparent;
@@ -107,30 +111,27 @@ body {
     text-decoration: none;
 }
 .pic_container {
-    width: 40%;
-    margin-right: 60px;
+    flex: 1;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #me {
-    position: absolute;
-    top: 125px;
-    right: 100px;
-    height: 550px;
-    width: 500px;
+    height: 55vh;
+    width: 25vw;
     object-fit: cover;
     border-radius: 50%;
     object-position: center top;
 }
-.container {
-    padding: 20px;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
 .socials_bar {
-    margin-top: auto;
-    margin-left: 60px;
-    padding-bottom: 90px;
+    flex: 0.5;
+    margin-left: 8%;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin-bottom: 1%;
 }
 .socials_bar a {
     margin-right: 25px;
